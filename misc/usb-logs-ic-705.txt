@@ -1,0 +1,62 @@
+[141679.587691] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[141679.587716] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 1
+[141679.595205] xhci-hcd xhci-hcd.0.auto: hcc params 0x0230fe65 hci version 0x110 quirks 0x00010010
+[141679.595243] xhci-hcd xhci-hcd.0.auto: irq 698, io mem 0x0a800000
+[141679.595458] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[141679.595466] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[141679.595471] usb usb1: Product: xHCI Host Controller
+[141679.595477] usb usb1: Manufacturer: Linux 4.4.247-lineageos-gb36049da7199-abd4d94b18f7 xhci-hcd
+[141679.595482] usb usb1: SerialNumber: xhci-hcd.0.auto
+[141679.598857] hub 1-0:1.0: USB hub found
+[141679.600993] hub 1-0:1.0: 1 port detected
+[141679.601676] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[141679.601693] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 2
+[141679.601798] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[141679.602338] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+[141679.602347] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[141679.602353] usb usb2: Product: xHCI Host Controller
+[141679.602359] usb usb2: Manufacturer: Linux 4.4.247-lineageos-gb36049da7199-abd4d94b18f7 xhci-hcd
+[141679.602364] usb usb2: SerialNumber: xhci-hcd.0.auto
+[141679.603263] hub 2-0:1.0: USB hub found
+[141679.603312] hub 2-0:1.0: 1 port detected
+[141679.908794] usb 1-1: new high-speed USB device number 2 using xhci-hcd
+[141680.031676] usb 1-1: New USB device found, idVendor=05e3, idProduct=0610
+[141680.031716] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[141680.031730] usb 1-1: Product: USB2.1 Hub
+[141680.031742] usb 1-1: Manufacturer: GenesysLogic
+[141680.052269] hub 1-1:1.0: USB hub found
+[141680.052676] hub 1-1:1.0: 4 ports detected
+[141680.063049] PMI: smblib_set_charge_param: boost switching frequency = 1600 (0x05)
+[141682.387415] usb 1-1.1: new full-speed USB device number 3 using xhci-hcd
+[141682.498592] usb 1-1.1: New USB device found, idVendor=0451, idProduct=2046
+[141682.498637] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[141682.501336] usb 1-1.1: ep 0x81 - rounding interval to 1024 microframes, ep desc says 2040 microframes
+[141682.517199] hub 1-1.1:1.0: USB hub found
+[141682.519583] hub 1-1.1:1.0: 4 ports detected
+[141682.805052] usb 1-1.1.2: new full-speed USB device number 4 using xhci-hcd
+[141682.899136] usb 1-1.1.2: New USB device found, idVendor=0c26, idProduct=0036
+[141682.899181] usb 1-1.1.2: New USB device strings: Mfr=1, Product=4, SerialNumber=3
+[141682.899195] usb 1-1.1.2: Product: IC-705
+[141682.899209] usb 1-1.1.2: Manufacturer: Icom Inc.
+[141682.899222] usb 1-1.1.2: SerialNumber: IC-705 13004551
+[141683.001730] usb 1-1.1.4: new full-speed USB device number 5 using xhci-hcd
+[141683.086718] usb 1-1.1.4: New USB device found, idVendor=08bb, idProduct=2901
+[141683.086733] usb 1-1.1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[141683.086738] usb 1-1.1.4: Product: USB Audio CODEC
+[141683.086742] usb 1-1.1.4: Manufacturer: Burr-Brown from TI
+[141683.088261] usb 1-1.1.4: ep 0x85 - rounding interval to 64 microframes, ep desc says 80 microframes
+[141683.972769] input: Burr-Brown from TI               USB Audio CODEC  as /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1.4/1-1.1.4:1.3/0003:08BB:2901.0007/input/input14
+[141684.026312] hid-generic 0003:08BB:2901.0007: input,hidraw0: USB HID v1.00 Device [Burr-Brown from TI               USB Audio CODEC ] on usb-xhci-hcd.0.auto-1.1.4/input3
+
+lavender:/ # lsusb
+Bus 001 Device 002: ID 05e3:0610
+Bus 001 Device 001: ID 1d6b:0002
+Bus 002 Device 001: ID 1d6b:0003
+Bus 001 Device 003: ID 0451:2046
+Bus 001 Device 004: ID 0c26:0036
+Bus 001 Device 005: ID 08bb:2901
+
+pi@radio:~ $ lsusb
+Bus 001 Device 008: ID 08bb:2901 Texas Instruments PCM2901 Audio Codec
+Bus 001 Device 007: ID 0c26:0036 Prolific Technology Inc.
+Bus 001 Device 006: ID 0451:2046 Texas Instruments, Inc. TUSB2046 Hub
