@@ -1,0 +1,36 @@
+[70419.790600] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[70419.790640] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 1
+[70419.799231] xhci-hcd xhci-hcd.0.auto: hcc params 0x0230fe65 hci version 0x110 quirks 0x00010010
+[70419.799292] xhci-hcd xhci-hcd.0.auto: irq 698, io mem 0x0a800000
+[70419.799654] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[70419.799669] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[70419.799682] usb usb1: Product: xHCI Host Controller
+[70419.799694] usb usb1: Manufacturer: Linux 4.4.247-lineageos-gb36049da7199-abd4d94b18f7 xhci-hcd
+[70419.799706] usb usb1: SerialNumber: xhci-hcd.0.auto
+[70419.802446] hub 1-0:1.0: USB hub found
+[70419.802523] hub 1-0:1.0: 1 port detected
+[70419.803063] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[70419.803088] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 2
+[70419.803249] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[70419.803506] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+[70419.803521] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[70419.803533] usb usb2: Product: xHCI Host Controller
+[70419.803545] usb usb2: Manufacturer: Linux 4.4.247-lineageos-gb36049da7199-abd4d94b18f7 xhci-hcd
+[70419.803556] usb usb2: SerialNumber: xhci-hcd.0.auto
+[70419.806978] hub 2-0:1.0: USB hub found
+[70419.807045] hub 2-0:1.0: 1 port detected
+[70420.108710] usb 1-1: new high-speed USB device number 2 using xhci-hcd
+[70420.232472] usb 1-1: New USB device found, idVendor=05e3, idProduct=0610
+[70420.232510] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[70420.232525] usb 1-1: Product: USB2.1 Hub
+[70420.232537] usb 1-1: Manufacturer: GenesysLogic
+[70420.255974] hub 1-1:1.0: USB hub found
+[70420.256705] hub 1-1:1.0: 4 ports detected
+[70420.260658] PMI: smblib_set_charge_param: boost switching frequency = 1600 (0x05)
+[70420.555103] usb 1-1.3: new full-speed USB device number 3 using xhci-hcd
+[70420.663129] usb 1-1.3: New USB device found, idVendor=1b3f, idProduct=2008
+[70420.663160] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[70420.663174] usb 1-1.3: Product: USB Audio Device
+[70420.663187] usb 1-1.3: Manufacturer: GeneralPlus
+[70420.859232] input: GeneralPlus USB Audio Device as /devices/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.3/1-1.3:1.3/0003:1B3F:2008.0001/input/input8
+[70420.912863] hid-generic 0003:1B3F:2008.0001: input,hidraw0: USB HID v2.01 Device [GeneralPlus USB Audio Device] on usb-xhci-hcd.0.auto-1.3/input3
