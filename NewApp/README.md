@@ -586,8 +586,10 @@ jack should be OK.
 - Redmi Note 8 Pro - 1080 x 2340 pixels
 
 - Redmi Note 8 Pro Max
-
+- 
+- Google Pixel 2 XL - works with IC-7300, and FT-857D (via DigiRig interface from K6ARK)
 - Google Pixel 4 (Android 12) - comes without 3.5mm audio jack
+- Google Pixel 6 (Android 14)
 
 - OnePlus Nord N10 - has 3.5mm headphone jack - 1080 x 2400 pixels
 
@@ -603,8 +605,6 @@ jack should be OK.
 - Galaxy S10 and S21 - in VOX mode with Yaesu FT-897 and FT-817ND
 
 - Huawei MediaPad 10" tablet - works fine with 'FT8 Radio'
-
-- Google Pixel 2 XL - works with IC-7300, and FT-857D (via DigiRig interface from K6ARK)
 
 - Samsung Tab A (8.0", 2019) running Android 11 - tested with FT-817ND + SignaLink USB
 
