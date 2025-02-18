@@ -207,6 +207,7 @@ The `RST` (RESET) button enables own CQ-calling when the `TX ON` appears.
   - Yaesu FT-817 / FT-818 -  SignaLink USB connected via OTG cable + using the DATA socket on radio
   - Yaesu FT-897 - Currently untested
   - QDX - CAT PTT support tested by HB9TXB, CAT Band Switching tested by ND7Y (Tyler)
+  - QMX and QMX+ - Select 'QDX' as the radio model in App Settings
   - Lab599 Discovery TX-500 - Experimental CAT support untested by us so far
   - Elecraft KX3 - Tested with DigiLink Nano interface (www.hb9zhk.ch) + a
     Lenovo tablet (M10 FHD Plus 2nd Gen. LTE)
