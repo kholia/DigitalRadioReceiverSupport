@@ -34,32 +34,13 @@ app. Get in touch with us for any help required.
 
 - Ensure that the Android phone has the correct time on it. This is critical to get right.
 
-  To correct the time on your phone WITHOUT root access, copy the `Local offset`
-  value from the [ClockSync app](https://m.apkpure.com/clocksync/ru.org.amip.ClockSync)
-  into the `Time Delta` field in the app settings (keeping the negative sign as
-  it is, if present).
-
-  Example:
-
-  The `ClockSync` app shows `-0.501` as the `Local offset`.
-
-  ![ClockSync 1](../screenshots/ClockSync-1.png)
-
-  So enter the same exact `-0.501` value in the `Time Delta` field in the app
-  settings.
-
-  ![App Settings 1](../screenshots/App-Settings-1.png)
-
-  Update 1: The app now supports getting the time from the phone's GPS
-  subsystem. This feature is only activated when the user clicks the `GPS
+  Best option: The app now supports getting the time from the phone's GPS
+  subsystem.  This feature is only activated when the user clicks the `GPS
   button` manually.
 
   To test and debug the GPS functionality on your phone, please use [the `GPSTest` app](https://github.com/barbeau/gpstest).
 
-  Update 2: You may use the https://time.is/ website on your phone instead of
-  ClockSync to get the `Time Delta` value.
-
-  Update 3: You may also use the [AtomicClock: NTP Time](https://play.google.com/store/apps/details?id=partl.atomicclock) app to get the `Time Delta` value.
+  Alt: You may use the https://time.is/ website on your phone to get the `Time Delta` value.
 
 - Disconnect the rig from the phone.
 
