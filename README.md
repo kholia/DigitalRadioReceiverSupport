@@ -1,13 +1,15 @@
-### FT8 Decoder
+### FT8 Apps 
 
-This is the support repository for the `Digital Radio Receiver` / `FT8 Decoder`
-app. [Here is the link to the `FT8 Decoder` app](https://play.google.com/store/apps/details?id=com.bunzee.digitalradioreceiver).
+NOTE: Please use the `BETA` version from the Google Play Store - it works much
+better! A full manual uninstall-reinstall of the app may be required - thank you!
 
 For the `FT8 Radio` app support, please vist [this URL](https://github.com/kholia/DigitalRadioReceiverSupport/tree/master/NewApp).
+
 [Here is the link to the `FT8 Radio` app](https://play.google.com/store/apps/details?id=com.bunzee.ft8radio).
 
-![AppShot](screenshots/Screenshot_20220128-133525.png)
+![AppShot](screenshots/Screenshot_20260228-184612_FT8.png)
 
+[Here is the link to the `FT8 Decoder` app](https://play.google.com/store/apps/details?id=com.bunzee.digitalradioreceiver).
 
 #### New to FT8?
 
